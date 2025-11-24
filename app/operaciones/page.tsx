@@ -5,37 +5,33 @@ const servicios = [
     titulo: "Recolección y Acopio de RAEE",
     bullets: [
       "Gestión integral del acopio, clasificación y recolección de residuos electrónicos.",
-      "Recepción de equipos obsoletos y scrap bajo control documental.",
-      "Registro y trazabilidad con Manifiestos de Recolección (SEMARNAT/SEGAM)."
+      "Recepción de equipos obsoletos y scrap bajo control documental."
     ],
-    evidencia: "Autorizaciones de recolección y transporte (SEMARNAT / SEGAM)."
+    evidencia: "Borrar"
   },
   {
     titulo: "Transporte Ecológico",
     bullets: [
       "Traslado seguro y regulado con unidades autorizadas.",
-      "Cumplimiento de normas para residuos industriales no peligrosos.",
       "Rutas optimizadas y vehículos certificados para reducir emisiones."
     ],
-    evidencia: "Permiso de Transporte Ambiental y Registro ante SEGAM."
+    evidencia: "Borrar"
   },
   {
     titulo: "Reciclaje y Tratamiento de RAEE",
     bullets: [
-      "Desmantelamiento, trituración y molienda de componentes.",
-      "Producción de concentrados metálicos para fundición/refinación.",
+      "Desmantelamiento, separacion y trituración de componentes.",
       "Operación certificada R2v3, ISO 14001 e ISO 45001."
     ],
-    evidencia: "Certificados R2v3, ISO, IMMEX."
+    evidencia: "Borrar"
   },
   {
     titulo: "Manifiestos y Certificación Ambiental",
     bullets: [
       "Manifiestos de Recolección, Transporte, Destrucción y Disposición Final (SEMARNAT).",
       "Certificados de Destrucción y Constancias de Economía Circular.",
-      "Cumplimiento ambiental y fiscal (SAT, SEMARNAT, SEGAM)."
     ],
-    evidencia: "Manifiestos oficiales y contratos de refinación."
+    evidencia: "Borrar"
   },
   {
     titulo: "Asesoría y Soporte Técnico",
@@ -44,13 +40,13 @@ const servicios = [
       "Capacitación y acompañamiento en cumplimiento y auditorías.",
       "Soporte en acopio, clasificación y valorización de materiales."
     ],
-    evidencia: "Respaldo de especialistas certificados en manejo de RAEE."
+    evidencia: "Borrar"
   }
 ];
 
 export default function OperacionesPage() {
   return (
-    <Seccion titulo="Operaciones" subtitulo="Procesos fríos (Recibásicos) y calientes (EWR)">
+    <Seccion titulo="Operaciones" subtitulo="Preparando residuos electronicos para un reciclaje seguro, trazable y sostenible">
       <div className="grid md:grid-cols-2 gap-6">
         {servicios.map((s) => (
           <div key={s.titulo} className="rounded-2xl p-6 ring-1 ring-foreground/10">

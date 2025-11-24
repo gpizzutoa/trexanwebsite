@@ -97,8 +97,7 @@ export default function Footer() {
             Certificaciones
           </h4>
           <p className="text-sm text-zinc-400">
-            R2v3, ISO 14001, ISO 45001, permisos SEMARNAT e IMMEX respaldan
-            nuestras operaciones responsables.
+            R2v3, ISO 14001, ISO 45001, permisos de SEMARNAT e IMMEX.
           </p>
         </div>
 
