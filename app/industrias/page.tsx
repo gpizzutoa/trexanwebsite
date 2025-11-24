@@ -2,6 +2,13 @@ import Seccion from "../(componentes)/ui/Seccion";
 
 const sectores = [
   {
+    nombre: "NOTA:",
+    bullets: [
+      "Esta seccion me gustaria que fuera muy similar a la de esta pagina https://firstamerica.com/#industries",
+      "Literalmente copiar el formato y lo que expica de cada industria (de las que tenemos similares) solo en español",
+    ]
+  },
+  {
     nombre: "Instituciones Públicas",
     bullets: [
       "Cumplimiento SEMARNAT y SEGAM; reducción de riesgo de sanciones.",

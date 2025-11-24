@@ -95,7 +95,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               "Recolección y Acopio",
-              "Desmantelamiento",
+              "Destruccion de Datos",
               "Transporte Ecológico",
               "Certificación",
             ].map((title, index) => (
@@ -126,7 +126,7 @@ export default function HomePage() {
                 )}
                 {index === 1 && (
                   <p style={{ color: "#4b5563" }}>
-                    Desmantelamiento y trituración asegurando la destruccióny la recuperación de todos los materiales.
+                    Desmantelamiento y trituración asegurando la destruccióny de datos.
                   </p>
                 )}
                 {index === 2 && (
@@ -301,8 +301,8 @@ export default function HomePage() {
               Reduciendo el impacto ambiental con procesos claros
             </h2>
             <p className="text-lg text-white/80">
-              Operamos conequipos capacitados, monitoreo constante y evidencias para que
-              cada auditoría resulte sencilla.
+              NOTA: En esta seccion hay que cambiarla a un count-up de # de dispositibos reciclados la 
+              formula es 200,000 dispositivos por semana y hayq que empezar el countdoun desde el 2025.
             </p>
           </div>
 

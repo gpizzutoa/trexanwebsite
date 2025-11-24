@@ -1,7 +1,7 @@
 import Seccion from "../(componentes)/ui/Seccion";
 
 const kpis = [
-  "RAEE gestionado (kg o toneladas por mes).",
+  "RAEE gestionado 700T al mes.",
   "Tasa de recuperación de materiales (> 90% objetivo).",
   "Emisiones de CO₂ evitadas frente a materiales nuevos.",
   "Volumen de metales recuperados (cobre, aluminio, metales preciosos).",
@@ -13,6 +13,9 @@ export default function SostenibilidadPage() {
   return (
     <Seccion titulo="Sostenibilidad" subtitulo="Economía circular con indicadores verificables">
       <div className="prose prose-neutral max-w-3xl">
+        <p>
+          NOTA: AGREGAR ESPACIO PARA SUBIR REPORTES DE SUSTENIBILIDAD ANUALES Y DEMAS DOCUMENTOS RELACIONADOS
+        </p>
         <p>
           Trexan Recycling Group impulsa un modelo de economía circular que transforma los residuos
           electrónicos en recursos de valor, reduciendo el impacto ambiental y fomentando el

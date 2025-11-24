@@ -2,7 +2,7 @@ import Seccion from "../(componentes)/ui/Seccion";
 
 export default function NosotrosPage() {
   return (
-    <Seccion titulo="Quiénes Somos" subtitulo="Recibásicos · Trexan Recycling Group">
+    <Seccion titulo="Quiénes Somos" subtitulo="Expertos en e-waste con décadas de conocimiento técnico y operativo.">
       <div className="prose prose-neutral max-w-3xl">
         <p>
           Recibásicos es una empresa mexicana especializada en el acopio,
@@ -26,6 +26,9 @@ export default function NosotrosPage() {
           acumulada en el reciclaje y la transformación de metales, 
           desde la operación de plantas en México hasta proyectos internacionales de 
           valorización contribuyendo activamente a la economía circular en México y Latinoamérica.
+        </p>
+        <p>
+          NOTA: Bajo esta seccion combinemos la pagina de Operaciones y pongamosla aqui mismo.
         </p>
       </div>
     </Seccion>
