@@ -75,20 +75,20 @@ export default function HomePage() {
               className="text-sm uppercase tracking-wider"
               style={{ color: "#166534" }}
             >
-              Soluciones Integrales
+              Soluciones Integrales de Reciclaje Para
             </p>
             <h2
               className="text-4xl font-bold"
               style={{ color: "#0a0a0a" }}
             >
-              Industria, gobierno y reciclaje bajo control
+              Industria, PYMES, Gobiernos y Hogares
             </h2>
             <p
               className="text-lg max-w-3xl mx-auto"
               style={{ color: "#4b5563" }}
             >
               Gestionamos residuos electrónicos con rutas seguras, permisos
-              completos y procesos internos auditables.
+              completos y procesos sustentable.
             </p>
           </div>
 
@@ -121,26 +121,24 @@ export default function HomePage() {
                 </h3>
                 {index === 0 && (
                   <p style={{ color: "#4b5563" }}>
-                    Recolección de equipos obsoletos, acopio seguro y manifiestos
-                    ambientales que respaldan cada movimiento.
+                    Recolección de equipos obsoletos y acopio seguro para cualquier volumen.
                   </p>
                 )}
                 {index === 1 && (
                   <p style={{ color: "#4b5563" }}>
-                    Desmantelamiento y trituración para producir concentrados
-                    listos para refinación.
+                    Desmantelamiento y trituración asegurando la destruccióny la recuperación de todos los materiales.
                   </p>
                 )}
                 {index === 2 && (
                   <p style={{ color: "#4b5563" }}>
-                    Transporte certificado con permisos SEGAM y SEMARNAT para
+                    Transportes ecologicos certificados para
                     una cadena logística transparente.
                   </p>
                 )}
                 {index === 3 && (
                   <p style={{ color: "#4b5563" }}>
-                    Certificados de destrucción y evidencia fotográfica para tu
-                    auditoría y cumplimiento.
+                    Certificados de destrucción y documentacion para tu
+                    auditorías y cumplimiento.
                   </p>
                 )}
               </div>
