@@ -88,7 +88,7 @@ export default function HomePage() {
               style={{ color: "#4b5563" }}
             >
               Gestionamos residuos electrónicos con rutas seguras, permisos
-              completos y procesos sustentable.
+              completos y procesos sustentables.
             </p>
           </div>
 
@@ -137,12 +137,56 @@ export default function HomePage() {
                 )}
                 {index === 3 && (
                   <p style={{ color: "#4b5563" }}>
-                    Certificados de destrucción y documentacion para tu
+                    Certificados de destrucción y documentacion para
                     auditorías y cumplimiento.
                   </p>
                 )}
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SECTORES */}
+      <section className="py-20 bg-[#1a3d2b] text-white">
+        <div className="section">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div className="space-y-4">
+              <p
+                className="text-sm uppercase tracking-wider"
+                style={{ color: "#86efac" }}
+              >
+                Sectores que servimos
+              </p>
+              <h2 className="text-4xl font-bold">
+                Resolvemos retos en múltiples industrias
+              </h2>
+              <p className="text-white/80">
+                Atendemos desde plantas industriales hasta instituciones
+                educativas, ajustando procesos y permisos a las normas de cada
+                cliente.
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                "Automotriz",
+                "Manufactura",
+                "Gobierno",
+                "Electrónica",
+                "Tecnología",
+                "Salud",
+                "Retail",
+                "Educación",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="border border-white/15 rounded-lg px-4 py-3 bg-white/5"
+                >
+                  <p className="font-semibold">{item}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -233,9 +277,9 @@ export default function HomePage() {
                   className="text-base leading-relaxed"
                   style={{ color: "#4b5563" }}
                 >
-                  Replicar el modelo de centros integrados para reducir
-                  transportes, elevar la recuperación de materiales y asegurar
-                  cumplimiento normativo en cada región.
+                  Ser el estándar nacional en recolección, clasificación y pre-procesamiento 
+                  de e-waste. Construyendo la infraestructura que hace posible un reciclaje
+                  responsable desde la fuente hasta el metal
                 </p>
               </div>
             </div>
@@ -257,8 +301,7 @@ export default function HomePage() {
               Reduciendo el impacto ambiental con procesos claros
             </h2>
             <p className="text-lg text-white/80">
-              Coordinar personas, permisos y logística es clave. Operamos con
-              equipos capacitados, monitoreo constante y evidencias para que
+              Operamos conequipos capacitados, monitoreo constante y evidencias para que
               cada auditoría resulte sencilla.
             </p>
           </div>
@@ -302,50 +345,6 @@ export default function HomePage() {
                 className="absolute -bottom-6 -right-6 w-40 h-40 bg-[--color-primary] opacity-20 rounded-full"
                 aria-hidden
               />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTORES */}
-      <section className="py-20 bg-[#1a3d2b] text-white">
-        <div className="section">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div className="space-y-4">
-              <p
-                className="text-sm uppercase tracking-wider"
-                style={{ color: "#86efac" }}
-              >
-                Sectores que confían en Trexan
-              </p>
-              <h2 className="text-4xl font-bold">
-                Resolvemos retos en múltiples industrias
-              </h2>
-              <p className="text-white/80">
-                Atendemos desde plantas industriales hasta instituciones
-                educativas, ajustando procesos y permisos a las normas de cada
-                sector.
-              </p>
-            </div>
-
-            <div className="grid sm:grid-cols-2 gap-4">
-              {[
-                "Automotriz",
-                "Manufactura",
-                "Gobierno",
-                "Electrónica",
-                "Tecnología",
-                "Salud",
-                "Retail",
-                "Educación",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="border border-white/15 rounded-lg px-4 py-3 bg-white/5"
-                >
-                  <p className="font-semibold">{item}</p>
-                </div>
-              ))}
             </div>
           </div>
         </div>
@@ -557,11 +556,11 @@ export default function HomePage() {
               Solicitar Cotización
             </Button>
             <a
-              href="mailto:gpizzutoa@trexan.co"
+              href="mailto:contacto@recibasicos.com"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full font-bold text-lg border-2 transition-all"
               style={{ borderColor: "white", color: "white" }}
             >
-              gpizzutoa@trexan.co
+              contacto@recibasicos.com
             </a>
           </div>
         </div>
